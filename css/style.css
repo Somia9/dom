@@ -1,0 +1,30 @@
+.item
+{
+position: relative;
+cursor: pointer;
+}
+
+.item-caption
+{
+width: 80%;
+position: absolute;
+bottom: 20px;
+left: 10%;
+}
+.lightboxContainer
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0 ,.5);
+}
+.ligtboxitem
+{
+    background-image: url(../images/1a.webp);
+    width: 50%;
+    height: 500px;
+    background-size: 100% 100%;
+
+}
